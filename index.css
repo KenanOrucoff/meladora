@@ -1,0 +1,591 @@
+*{  margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    scroll-behavior: smooth;
+    
+}
+/* width */
+::-webkit-scrollbar {
+  width:8px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffbf00; 
+  border-radius: 2px;
+}
+#back-to-top-btn {
+  position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 45px;
+     height: 45px;
+     background: #ffbf00;
+     color: #ffff;
+     font-size:23px;
+     border: none;
+     cursor: pointer;
+     display: none;
+     z-index: 9;
+     box-shadow: 0 2px 5px 0px rgb(0 0 0 / 10%);
+ }
+
+
+
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1160px;
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    
+  
+}
+.social-contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-bottom: 1px solid #C7C7C7;
+}
+.header-right{
+    display: flex;
+}
+.social-list{
+    display: flex;
+}
+.social-list li{
+    margin: 10px;
+}
+.contact-list{
+    display: flex;
+}
+.contact-list li{
+    margin: 5px;
+}
+.contact-list li a i{
+    color: #91B40D;
+}
+.contact-list li a{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.lang-list{
+    cursor: pointer;
+}
+.lang-list li{
+    margin: 5px;
+}
+.click{
+    margin: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.lang-dropdown{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  
+}
+.menu-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.menu-list{
+    display: flex;
+}
+.menu-list li a{
+    margin: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.wrapper{
+    width: 100%;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+  
+  .card-text p{
+    width: 150%;
+    margin-left: 10px;
+  }
+  .card-text h1{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .carousel .card-1{
+    background-color: #1A5221;
+  }
+  .carousel .card-2{
+    background-color: #91B40D;
+  }
+  .carousel .card-3{
+    background-color: #FFBF00;
+  }
+  .carousel .card-4{
+    background-color: #1A5221;
+  }
+  .carousel .card-5{
+    background-color: #91B40D;
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  }
+  
+  .card-text-image{
+    display: flex;
+  }
+
+.social-list li a i{
+    color:#91B40D;
+}
+.lang-list li a{
+    color: #FFFFFF
+}
+.click{
+    color: #FFFFFF
+}
+.menu-list li a{
+    color: #FFFFFF
+   
+}
+.about{
+    display: flex;
+    margin-top: 100px
+}
+.about-image img{ 
+    width: 500px;
+}
+.about-info{
+    padding: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    background-image: url('image/Group\ 417.png');
+    background-position: -5% 65%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+.about-info h1{
+    font-size: 36px;
+
+}
+.about-info p{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+   
+}
+.about-element{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.image-name p{
+    font-size: 16px;
+}
+.banner-image{
+    width: 100%;
+    height:402px;
+
+   
+}
+.banner-image img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1; 
+}
+.overlay{
+    background-color: #0F0D0D;
+    opacity: 44%;
+    z-index: 9 ;
+    position: absolute;
+    width: 100%;
+    height: 66%;
+}
+
+.product-title{
+    text-align: center;
+}
+.product-title h1{
+    font-size: 36px;
+    font-family: 'Cormorant Garamond',
+}
+.product-flex{
+    display: flex;
+    margin-left: 40px;
+}
+.product-image img{
+    width: 320px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.product-text h1{
+    font-size: 100px;
+    font-weight: 400;
+    color: #918F8F;
+    font-family:sans-serif;
+}
+.product-text h2{
+    font-size: 30px;
+    color: #5F5C5C;
+}
+.product-text p{
+    color: #7C7A7A;
+    width: 82%;
+}
+.product-list{
+    display: flex;
+    justify-content: center;
+    
+}
+.product-list  li{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ .fruits-card{ 
+    width: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.price{
+    width: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.price h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.price p{
+    text-align: center;
+    color: #91B40D;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.price-title h1{
+    font-size: 36px;
+}
+.price-title img{
+    margin-top: 20px;
+}
+.price-title{
+    text-align: center;
+    margin-top: 50px;
+}  
+.price-card img{
+    width: 150px;
+}
+
+.blog-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.blog-title img{
+    margin-top: 20px;
+}
+.blog-title h1{
+    font-size: 36px;
+}
+.blog-card{
+    display: flex;
+    margin-top: 50px;
+}
+.blog-card-image h1{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #2F2A2A;
+}
+.blog-card-image p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #7C7A7A;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+#main-footer{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    background: url('image/ezgif.com-gif-maker\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.footer-list h2{
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+.footer-list li{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.secondary-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 1px solid #f3f3f3;
+}
+.secondary-footer .footer-element{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.footer-element a{
+    color:#FFBF00;
+    font-weight: 600;
+}
+.footer-list li{
+    margin: 10px;
+}
+.footer-list h2{
+    margin: 10px;
+}
+
+.fixed{
+  background-color: green;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #ffbf00;
+}
+.mobile{
+  background-color: green;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #ffbf00;
+}
+.fixed .menu-navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: unset;
+}
+.fixed .social-contact{
+  display:none;
+}
+@media (max-width:960px){
+    .container{
+        width: auto;
+    }
+    .social-contact{
+        display: none;
+    }
+    .navbar_toggle .bar{
+        width: 25px;
+        height: 2px;
+        margin: 6px auto;
+        transition: all 0.3s ease-in-out;
+        background: #FFFFFF;
+        display: block;
+        cursor: pointer;
+      }
+      #mobile-menu {
+        position: absolute;
+        top: 30%;
+        right: 10%;
+        transform: translate(5%, 20%);
+      }
+      #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+      }
+      
+      #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+      
+      #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+      .menu-navbar{
+        margin-top: 20px;
+      }
+      .menu-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 95px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+      .menu-list.active {
+        width: 80%;
+        background: #FFFFFF;
+        background-image: url('image/Group\ 434.png');
+        background-size: 80% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        padding-bottom: 50px;
+        margin-right: auto;
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.5s ease;
+        
+      }
+      .menu-list li{
+          margin: 10px;
+          padding: 0;
+          text-align: center;
+      }
+      .menu-list li a{
+        color: #2e2020;
+      }
+      .overlay{
+        height: 47%;
+      }
+      .banner-image img{
+        height: 60%;
+      }
+      .owl-dots{
+        margin-left: 35px;
+        text-align: unset;
+      }
+      .owl-carousel{
+        width: auto;
+      }
+      .carousel{
+        padding: 0px 20px;
+      }
+
+      .header-text img{
+        margin-top: 15px;
+      }
+      .header-text p{
+        margin-top: 20px;
+      }
+      .product-title img{
+        margin-top: 10px;
+      }
+
+      .about{
+        flex-direction: column;
+      }
+      .about-info{
+        background-image: none;
+        margin-top: auto;
+      }
+      .about-image img{
+        width: 100%;
+      }
+      
+      .about-element{
+        display: flex;
+        flex-direction: column;
+      }
+      .image-name{
+        padding: 20px;
+      }
+      .image-leaf img{
+        width: 100%;
+        margin-top: 25px;
+      }
+      .product-flex{
+        flex-direction: column;
+        margin-left: unset;
+        text-align: center;
+      }
+      .product-image{
+        padding: 20px;
+      }
+      .product-text p{
+        margin: 0 auto;
+      }
+     .product-image img{
+        margin-top: 20px;
+     }
+   
+      .product-list{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+      }
+      .fruits-card{
+        width: auto;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+      }
+
+
+      .blog-card{
+        flex-direction: column;
+        
+      }
+      .blog-card-image{
+        padding: 10px;
+      }
+      .blog-card-image img{
+        width: 100%;
+      }
+
+
+      .footer{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .secondary-footer{
+        flex-direction: column;
+      }
+}
